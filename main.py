@@ -15,7 +15,8 @@ for i in range (0, 4):
 
     if nombreEntre == nombreMagique:
         print("Bravo vous avez trouver le nombre magique il s'agit bien de ", nombreMagique)
-        
+
       break
 
-    else
+else:
+    print("ce n'est pas grave , essayez encore uen fois ?? le nombre magique etait:",nombreMagique)

@@ -1,8 +1,8 @@
 import random
-nombreMagique = random.randint(1, 20)
+nombreMagique = random.randint(1, 26)
 
-for i in range (0, 3):
-    print("Essai#", i+1)
+for i in range (0, 4):
+    print("Essai Numero", i+1)
     nombreEntre = input ("Bonjour Monsieur Merci de deviner un nombre")
     nombreEntre = int(nombreEntre)
     if nombreEntre > nombreMagique:

@@ -12,3 +12,10 @@ for i in range (0, 4):
 
     if nombreEntre < nombreMagique:
         print("Votre nombre que vous avez entrer est inferieux au nombre magique")
+
+    if nombreEntre == nombreMagique:
+        print("Bravo vous avez trouver le nombre magique il s'agit bien de ", nombreMagique)
+        
+      break
+
+    else

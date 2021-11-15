@@ -2,20 +2,22 @@ import random
 nombreMagique = random.randint(1, 26)
 
 for i in range (0, 4):
-    print("Essai Numero", i+1)
-    nombreEntre = input ("Bonjour Monsieur Merci de deviner un nombre")
+    print("Testnummer", i+1)
+    nombreEntre = input ("Hallo Sir, vielen Dank, dass Sie eine Zahl erraten haben::::...................")
     nombreEntre = int(nombreEntre)
     if nombreEntre > nombreMagique:
 
-        print ("Votre nombre que vous avez entrer est superieur au nombre magique")
+        print ("Ihre eingegebene Zahl ist größer als die magische Zahl !! Bitte geben Sie eine andere Zahl ein")
 
     if nombreEntre < nombreMagique:
-        print("Votre nombre que vous avez entrer est inferieux au nombre magique")
+        print("Ihre eingegebene Zahl ist der magischen Zahl unterlegen !!! Bitte geben Sie eine andere Zahl ein")
 
     if nombreEntre == nombreMagique:
-        print("Bravo vous avez trouver le nombre magique il s'agit bien de " , nombreMagique)
+        print("Gut gemacht, Sie haben die magische Zahl gefunden, die es tatsächlich ist ::::" , nombreMagique)
 
         break
 
 else:
-    print("ce n'est pas grave , essayez encore uen fois ?? le nombre magique etait:" , nombreMagique)
+    print("egal, versuche es noch einmal, die magische Zahl lautete:::::"
+
+ , nombreMagique)
